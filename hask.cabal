@@ -44,7 +44,7 @@ library
     Hask.Tensor.Day
 
   build-depends:
-    base <= 4.13,
+    base < 5,
     constraints,
     ghc-prim,
     reflection,
